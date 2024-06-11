@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Filmes!</title>
+</head>
+<body onload="carregar()">
+    <div id="container">
+        <header>
+            
+        </header>
+        <section>
+                <h1>Indicações de filmes!</h1>
+                <div id="forms">
+                <p>Gênero de filme favorito:</p>
+                <label for="acao">Ação</label>
+                <input type="radio" name="radgenero" id="acao" checked>
+                <label for="comedia">Comédia</label>
+                <input type="radio" name="radgenero" id="comedia">
+                <label for="romance">Romance</label>
+                <input type="radio" name="radgenero" id="romance">
+                <label for="terror">Terror</label>
+                <input type="radio" name="radgenero" id="terror">
+               <p>Ano que nasceu: <br>
+                <input class="number" type="number" name="txtano" id="txtano">
+                <p>
+                    <input id="button" type="button" value="Enviar" onclick="enviar()">
+                </p>
+            </div>
+            <div id="res">
+                <img id="foto" src="" alt="">
+                <p class="epoca">Preencha os dados acima para receber uma indicação de filme!</p> 
+            </div>
+        </section>
+        <footer>
+            &copy; Ingridbeca
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

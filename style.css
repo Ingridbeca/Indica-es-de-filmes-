@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100&display=swap');
+    html {
+        min-height: 100%;
+        font-family: 'Mukta', sans-serif;
+    }
+    body{
+        overflow: hidden;
+        font-family: 'Geologica', sans-serif;
+        display: block;
+        position: absolute;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(img/tela.jpg);
+    }
+    #container{
+        margin-top: 60px;
+        font-size: 20px;
+        color: #eeeeee;
+        text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    }
+    h1{
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 8px;
+        height: 30px;
+        font-size: 40px;
+        color:#ffffff;
+        text-shadow: 1px 1px 10px rgba(255, 0, 76);
+    }
+    section{
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.938);
+        border-radius: 10px;
+        box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.397);
+        padding: 15px;
+        width: 800px;
+        height: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    div{
+        margin: 40px;
+    }
+    label{
+        padding-left: 20px;
+    }
+    p{
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 10px rgba(0, 22, 68, 0.322);
+    }
+    img{
+        width: 180px;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .number{
+        border-radius: 8px;
+        border: none;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    #button{
+        margin-top: 10px;
+        background-color:#0063b4;
+        font-size: 16px;
+        color: #ffffff;
+        border: none;
+        width: 100px;
+        height: 30px;
+        border-radius: 8px;
+    }
+    footer{
+        color: rgba(255, 255, 255, 0.904);
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.836);
+        text-align: center;
+        font-style: italic;
+        line-height: 30px;
+        height: 25px;
+    }
